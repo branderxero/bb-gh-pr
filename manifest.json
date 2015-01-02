@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "BB-GH-PR",
+    "description": "branding brand github pull request tool",
+    "version": "0.2.1",
+    "permissions": [
+        "tabs",
+        "<all_urls>",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": [ 
+        { 
+            "all_frames": false, 
+            "js": [ "jquery.js", "showcmds.js" ],
+            "matches": [ 
+                "*://*.github.com/*"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "showcmds.js",
+        "jquery.js"
+    ]
+}
