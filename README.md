@@ -1,14 +1,24 @@
-#bb-gh-pr
+#branding brand github pull request tool
 
-branding brand github pull request tool
+the tool to show git commands for pull request testing for users without merge privileges.
 
 ##install
 
-this extension is not released on the store, so you must install it manually.
+- open chrome
+- navigate to the extensions `chrome://extensions/`
+- check the `developer mode` box on the top right
+- select `load unpacked extension...`
+- browse to this folder
+- ???
+- PROFIT!
 
-- navigate to chrome://extensions/
-- choose load unpacked extension...
-- browse to the repository location
-- click ok
+## usage
+- navigate to any pull request page
+- a new box will appear at the top of the screen with pr command
+- click the copy to clipboard button
+- open your terminal
+- navigate to the repo
+- paste
+- test!
 
-then it should appear on any pull request page
+v0.2.x brought to you by @branderxero
